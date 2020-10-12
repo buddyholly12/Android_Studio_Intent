@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/btnintent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Explisit Intent"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="91dp" />
+
+    <EditText
+        android:id="@+id/etdatakirim2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Input nama kata "
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnintent2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Explisit Intent (data)" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnintent3"
+        android:text="Explicit Intent (parcelable)"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnDial"
+        android:text="Implisit Intent(dial)"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnalarm"
+        android:text="Implisit Intent(Alarm)"
+        />
+</LinearLayout>
